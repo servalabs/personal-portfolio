@@ -27,38 +27,34 @@ const AboutMe = () => {
                 <Div className="text-[40px] md:text-[90px] 2xl:text-[90px] leading-[52px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase mb-[25px] md:mb-[40px] 2xl:mb-[60px] flex flex-col relative">
                     <span>A software developer</span>
                     <span className="flex items-center gap-2">
-                        <span>Based</span>
+                        <span>Based In</span>
                         <img
                             src={flag}
                             alt=""
                             className="w-[70px] md:w-[150px] 2xl:w-[190px] block mt-1 md:mt-2"
                         />
-                        <span>In Pakistan</span>
+                        <span>Bharat</span>
                     </span>
                 </Div>
                 {/* HEADING END */}
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                My journey as a software engineer started during my college years, 
-                where I discovered my love for problem-solving and coding. 
-                Since then, I have embarked on various exciting projects that
-                 have allowed me to grow both technically and personally.
-
+                "People often overestimate what they can do in a year and underestimate what they can do in a decade."
 
                 </Div>
                 {/* PARAGRAPH END */}
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                I have completed my Bachelor's degree in Software Engineering from FAST National University of Computer and Emerging Sciences, Faisalabad, Pakistan. Throughout my academic journey, I have gained valuable knowledge and experience in areas such as software design, agile methodologies, and user experience (UX) design. To stay updated with the latest trends and technologies in the field, I actively participate in seminars and workshops, including the International Conference of Industrial Technologies (ICIT'22) and Technolangs IEEE Conference'22.
-
+                Started TechGG in 2021 to help brands who are working on the edge, From Tech Hardware companies like Sharge (Powerbank with a display & OS) to mymind (AI-based Personal Knowledge Management System)
+                Started ServaLabs in 2024 to decentralise compute and AI in homes to improve data localisation, reducing external dependence and making enterprise features accessible to consumers, via our own OS
                 </Div>
                 {/* PARAGRAPH END */}
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] relative">
-                Throughout my career, I've had the privilege of working with diverse and talented teams, which has exposed me to a wide range of challenges and opportunities for learning. Each project has been a stepping stone that has honed my skills and equipped me with the knowledge to tackle complex problems head-on.
+                Jack of all trades, master of none; oftentimes better than master of one
                 </Div>
                 {/* PARAGRAPH END */}
             </Wrapper>
