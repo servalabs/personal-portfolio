@@ -118,7 +118,7 @@ const Form = () => {
                         htmlFor="message"
                         className="text-[16px] text-black uppercase"
                     >
-                        About you
+                        Message
                         <sup>*</sup>
                     </label>
                     <textarea

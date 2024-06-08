@@ -25,9 +25,9 @@ const AboutMe = () => {
             <Wrapper>
                 {/* HEADING START */}
                 <Div className="text-[40px] md:text-[90px] 2xl:text-[90px] leading-[52px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase mb-[25px] md:mb-[40px] 2xl:mb-[60px] flex flex-col relative">
-                    <span>A Founder</span>
+                    <span>A Founder Based</span>
                     <span className="flex items-center gap-2">
-                        <span>Based In</span>
+                        <span>In</span>
                         <img
                             src={flag}
                             alt=""
@@ -43,12 +43,11 @@ const AboutMe = () => {
                 "People often overestimate what they can do in a year and underestimate what they can do in a decade."
 
                 </Div>
-                {/* PARAGRAPH END */}
-
-                {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
                 Started TechGG in 2021 to help brands who are working on the edge, From Tech Hardware companies like Sharge (Powerbank with a display & OS) to mymind (AI-based Personal Knowledge Management System)
-                
+                </Div>
+
+                <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
                 Started ServaLabs in 2024 to decentralise compute and AI in homes to improve data localisation, reducing external dependence and making enterprise features accessible to consumers, via our own OS
                 </Div>
                 {/* PARAGRAPH END */}

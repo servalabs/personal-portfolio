@@ -51,7 +51,7 @@ const Testimonials = () => {
                                 />
                                 <div className="font-bold">Jane Doe</div>
                                 <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                                    Client
+                                    Uchat
                                 </div>
                             </div>
                             <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
