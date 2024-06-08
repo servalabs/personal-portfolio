@@ -89,32 +89,27 @@ const Skills = () => {
                     <div className="md:max-w-[65%] flex flex-col gap-6 md:gap-10">
                     <Service
                             num="1"
-                            title="Web Sloution Services"
+                            title="Servalabs (2024-Present)"
                             desc="I specialize in crafting innovative solutions tailored to your needs. Leveraging the power of cutting-edge technologies and stacks such as MERN (MongoDB, Express.js, React, Node.js), Asp.Net, and robust CI/CD pipelines, I am well-equipped to deliver seamless and efficient systems. Whether you require a dynamic CRM system, a comprehensive ERP solution, or any other web-based application, I have the expertise to bring your vision to life."
                             data={[
-                                "MERN Stack",
-                                "Asp.Net",
-                                "ci/cd pipeline",
-                                "CRM",
-                                "ERP",
+                                "Founder",
+                                "Homeserver",
+                                "Docker",
                             ]}
                         />
                                                 <Service
                             num="2"
-                            title="Software Construction and Development"
+                            title="TechGG (2021-Present)"
                             desc="I am highly skilled at solving problems through software development. I use coding, testing, and debugging to create effective solutions."
                             data={[
-                                "MCV Architecture",
-                                "JAVA ",
-                                "Junit Testing",
-                                "Design patterns",
-                                "Design to code",
-                                "Multi-threading",
+                                "Founder",
+                                "Product Design",
+                                "Marketing",
                             ]}
                         />
                          <Service
                             num="3"
-                            title="App Development"
+                            title="Consultant"
                             desc="Expertise in Java, Kotlin, MVVM architecture, REST APIs, and seamless MAPS integration. Join me to craft apps that redefine user experiences and solve real-world challenges."
                             data={[
                                 "Java",
@@ -123,33 +118,7 @@ const Skills = () => {
                                 "REST API'S",
                                 "MAPS Integration",
                             ]}
-                        />
-
-                        <Service
-                            num="4"
-                            title="Python Data AI"
-                            desc="I excel in data analysis, AI bots, problem-solving, data handling, visualization, and regression modeling. Let's bring data to life and find optimal solutions together."
-                            data={[
-                                "Data Analysis",
-                                "AI Bots",
-                                "Best problem sloutions",
-                                "Data Handling & Visualisation",
-                                "Regression Modelings & Opreations Research",
-                            ]}
-                        />
-                                                <Service
-                            num="5"
-                            title="Ui/Ux Design"
-                            desc="I specialize in making user experiences exciting. Using strong design principles, I enhance digital products with prototypes, wireframes, research, and beautiful UI designs. Let's work together to create impressive designs that users will love."
-                            data={[
-                                "Prototype",
-                                "Wireframe",
-                                "UX Research",
-                                "UI Design",
-                                "Human computer interaction",
-                            ]}
-                        />
-
+                        />            
                     </div>
                     {/* SERVICES END */}
 
@@ -165,13 +134,13 @@ const Skills = () => {
                             />
                         </span>
                         <span className="flex items-center gap-4">
-                            Good{" "}
+                            XP{" "}
                             <img
                                 src={pattern}
                                 className="hidden md:block md:w-[140px] 2xl:w-[190px] mt-3"
                             />
                         </span>
-                        <span>Services</span>
+                        <span>Intuition</span>
                     </div>
                     {/* SECTION HEADING END */}
                 </div>
