@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Wrapper from "./Wrapper";
-import man from "../assets/rizwan.png";
+import man from "../assets/saumya.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
 import gmailIcon from "../assets/email-icon.png";
 import { scrollTo } from "../helper";
@@ -58,20 +58,20 @@ const HeroBanner = () => {
                         <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
                             <img src={gmailIcon} alt="" className="w-[18px]" />
                         </div>
-                        <div>muhammadrizwanse23@gmail.com</div>
+                        <div>saumya@name_of_this_website.com</div>
                     </div>
                     <ul className="flex 2xl:text-[20px]">
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
                             onClick={() => scrollTo("about")}
                         >
-                            About me
+                            Intro
                         </li>
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
                             onClick={() => scrollTo("skills")}
                         >
-                            Skills
+                            XP
                         </li>
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
@@ -83,7 +83,7 @@ const HeroBanner = () => {
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
                             onClick={() => scrollTo("contact")}
                         >
-                            Contact
+                            PM
                         </li>
                     </ul>
                 </motion.div>

@@ -112,11 +112,8 @@ const Skills = () => {
                             title="Consultant"
                             desc="Expertise in Java, Kotlin, MVVM architecture, REST APIs, and seamless MAPS integration. Join me to craft apps that redefine user experiences and solve real-world challenges."
                             data={[
-                                "Java",
-                                "Kotlin",
-                                "MVVM Architecture",
-                                "REST API'S",
-                                "MAPS Integration",
+                                "Marketing",
+
                             ]}
                         />            
                     </div>

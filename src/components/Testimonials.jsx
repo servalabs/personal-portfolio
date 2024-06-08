@@ -34,10 +34,7 @@ const Testimonials = () => {
                 {/* SECTION HEADING START */}
                 <Div className="mb-10 relative">
                     <div className="flex text-center justify-center gap-2 md:gap-0 md:flex-col text-[40px] md:text-[90px] 2xl:text-[120px] leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase mb-2 text-[#111111]">
-                        Client Says
-                    </div>
-                    <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                    Hear what my satisfied clients have to say!
+                        What Companies Say
                     </div>
                 </Div>
                 {/* SECTION HEADING END */}
@@ -49,23 +46,20 @@ const Testimonials = () => {
                         <div className="text-black flex items-center flex-col px-[25px] md:px-[50px] py-[50px]">
                             <div className="mb-[25px]">
                                 <img
-                                    src="https://i.postimg.cc/Vv995h7F/1638340800227.jpg"
+                                    src="https://i.postimg.cc/0Nw6MMhk/Application-Frame-Host-XEIZe-WAGT0.png"
                                     className="w-[80px] h-[80px] max-w-[80px] rounded-full"
                                 />
-                                <div className="font-bold">Haroon Amjad</div>
+                                <div className="font-bold">Jane Doe</div>
                                 <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
                                     Client
                                 </div>
                             </div>
                             <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                            Rizwan  has been an outstanding collaborator for the past two years. Their expertise in web development, Python,
-                             Java, and writing tasks has been instrumental in the success of our projects. 
-                            I highly recommend their services for their professionalism, versatile skill set, 
-                            and consistent delivery of high-quality work.
+                            Lorem Ipsum
                             </div>
                         </div>
                         {/* SLIDE END */}
-                        {/* SLIDE START 
+                        {/* SLIDE START
                         <div className="text-black flex items-center flex-col px-[25px] md:px-[50px] py-[50px]">
                             <div className="mb-[25px]">
                                 <img

@@ -32,7 +32,7 @@ const Form = () => {
 
     const formSuccess = () => {
         toast(
-            "Thanks for submitting your Query, I will get back to you shortly."
+            "Thanks for submitting"
         );
 
         // Resetting Form
@@ -78,7 +78,7 @@ const Form = () => {
                             htmlFor="from_name"
                             className="text-[16px] text-black uppercase"
                         >
-                            Your name<sup>*</sup>
+                            Your amazing name<sup>*</sup>
                         </label>
                         <input
                             name="from_name"
@@ -118,7 +118,7 @@ const Form = () => {
                         htmlFor="message"
                         className="text-[16px] text-black uppercase"
                     >
-                        Please tell a bit about yourself & your project
+                        About you
                         <sup>*</sup>
                     </label>
                     <textarea
@@ -132,7 +132,7 @@ const Form = () => {
 
                 {/* SUBMIT BUTTON */}
                 <button className="bg-[#111111] h-[64px] max-w-[585px] text-[16px] transition-transform active:scale-[0.95]">
-                    Send Contact Request Now
+                    Send
                 </button>
                 {/* SUBMIT BUTTON */}
             </form>

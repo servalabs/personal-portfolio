@@ -2,7 +2,7 @@ import React from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
 
 import Wrapper from "./Wrapper";
-import flag from "../assets/pk.png";
+import flag from "../assets/bharat.png";
 import pe1 from "../assets/sec-2-p-e-1.png";
 import pe2 from "../assets/sec-2-p-e-2.png";
 import Div from "./Div";
@@ -48,6 +48,7 @@ const AboutMe = () => {
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
                 Started TechGG in 2021 to help brands who are working on the edge, From Tech Hardware companies like Sharge (Powerbank with a display & OS) to mymind (AI-based Personal Knowledge Management System)
+                
                 Started ServaLabs in 2024 to decentralise compute and AI in homes to improve data localisation, reducing external dependence and making enterprise features accessible to consumers, via our own OS
                 </Div>
                 {/* PARAGRAPH END */}
