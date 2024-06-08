@@ -1,5 +1,4 @@
 import React from "react";
-
 import { achievements } from "../data";
 import NumInc from "./NumInc";
 import dashedCircle from "../assets/dashed-circle.svg";
@@ -15,10 +14,9 @@ const Achievements = () => {
                 >
                     <img
                         src={dashedCircle}
-                        className="hidden md:block absolute top-0 left-0"
+                        className="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
                     />
                     <div className="flex items-center text-white relative">
-                        {/* START */}
                         <div className="flex items-center justify-center text-center flex-col gap-3 lg:gap-6">
                             <div className="text-[34px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] font-light flex">
                                 <NumInc num={item.year} />+
@@ -30,7 +28,6 @@ const Achievements = () => {
                                 }}
                             />
                         </div>
-                        {/* END */}
                     </div>
                 </Div>
             ))}
