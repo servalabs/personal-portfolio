@@ -97,9 +97,9 @@ const HeroBanner = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <h1 className="text-[50px] md:text-[120px] 2xl:text-[120px] leading-[50px] md:leading-[125px]  2xl:leading-[140px] font-oswald uppercase">
-                        Founder by passion
+                        Founder by profession
                         <br className="invisible md:visible" />
-                        Polymath
+                        Polymath by passion
                     </h1>
                 </motion.div>
                 {/* BIG HEADING END */}
