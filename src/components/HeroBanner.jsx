@@ -116,7 +116,7 @@ const HeroBanner = () => {
                         <span className="font-semibold">Saumya Shah,</span>
                     </div>
                     <div className="max-w-[510px]">
-                    a passionate and results-driven software engineer with a keen eye for detail and a strong commitment to delivering high-quality problem sloution.
+                    A passionate and outcome-driven founder
                     </div>
                 </motion.div>
                 {/* INTRO END */}
@@ -131,24 +131,18 @@ const HeroBanner = () => {
                 >
                     {/* START */}
                     <div className="flex items-center gap-3">
-                        <div className="text-[80px] font-light">25+</div>
-                        <div className="leading-[22px]">
-                            SUCCESSFULLY
-                            <br />
-                            COMPLETED
-                            <br />
-                            PROJECTS
+                        <div className="text-[70px] font-light">2</div>
+                        <div className="leading-[42px]">
+                            STARTUPS
                         </div>
                     </div>
                     {/* END */}
 
                     {/* START */}
                     <div className="flex items-center gap-3">
-                        <div className="text-[80px] font-light">2+</div>
-                        <div className="leading-[22px]">
-                            YEARS OF
-                            <br />
-                            EXPERIENCE
+                        <div className="text-[70px] font-light">25+</div>
+                        <div className="leading-[42px]">
+                            HARDWARE<br />PARTNERS
                         </div>
                     </div>
                     {/* END */}
