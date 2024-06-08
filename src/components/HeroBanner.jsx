@@ -97,9 +97,9 @@ const HeroBanner = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <h1 className="text-[50px] md:text-[120px] 2xl:text-[120px] leading-[50px] md:leading-[125px]  2xl:leading-[140px] font-oswald uppercase">
-                        I Am A Software
+                        Founder by passion
                         <br className="invisible md:visible" />
-                        Engineer
+                        Polymath
                     </h1>
                 </motion.div>
                 {/* BIG HEADING END */}
@@ -113,7 +113,7 @@ const HeroBanner = () => {
                 >
                     <div className="font-light mb-4">
                         👋 Hi, I Am{" "}
-                        <span className="font-semibold">Muhammad Rizwan,</span>
+                        <span className="font-semibold">Saumya Shah,</span>
                     </div>
                     <div className="max-w-[510px]">
                     a passionate and results-driven software engineer with a keen eye for detail and a strong commitment to delivering high-quality problem sloution.
@@ -174,25 +174,25 @@ const HeroBanner = () => {
                             alt=""
                             className="w-[15px]"
                         />
-                        <div className="text-black">Hire Me</div>
+                        <div className="text-black">PM</div>
                     </div>
                     {/* HIRE ME BUTTON END */}
                 </motion.div>
                 {/* PERSON BLOCK END */}
             </Wrapper>
             <div style={socialIconsStyle}>
-        <a href="https://www.linkedin.com/in/muhammad-rizwann/" style={iconStyle}>
+        <a href="https://www.linkedin.com/in/saumyashhah/" style={iconStyle}>
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com/Rizwan0994/" style={iconStyle}>
+        <a href="https://github.com/servalabs/" style={iconStyle}>
           <i className="fab fa-github"></i>
         </a>
-        <a href="https://twitter.com/midstain/" style={iconStyle}>
+        <a href="https://x.com/saumyashhah/" style={iconStyle}>
           <i className="fab fa-twitter"></i>
         </a>
       </div>
         </div>
     );
 };
-
+    
 export default HeroBanner;
