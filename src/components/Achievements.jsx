@@ -7,7 +7,7 @@ import Div from "./Div";
 
 const Achievements = () => {
     return (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-[15px] md:gap-[25px] 2xl:gap-[50px] mt-[75px] md:mt-[150px] relative">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-[15px] md:gap-[25px] 2xl:gap-[50px] mt-[75px] md:mt-[150px] relative">
             {achievements.map((item) => (
                 <Div
                     key={item.id}
