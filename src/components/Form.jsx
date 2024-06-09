@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { send } from "emailjs-com";
+import { send } from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Div from "./Div";
