@@ -5,7 +5,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "test": "echo \"No tests available\"",
@@ -16,6 +15,7 @@
     "@fortawesome/fontawesome-free": "^6.5.2",
     "framer-motion": "^11.2.10",
     "glob": "^10.4.1",
+    "globby": "^14.0.1",
     "lru-cache": "^10.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -28,7 +28,6 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.0",
     "autoprefixer": "^10.4.19",
-    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "vite": "^5.2.13"
