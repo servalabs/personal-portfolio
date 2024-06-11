@@ -13,15 +13,12 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@fortawesome/fontawesome-free": "^6.5.2",
-    "framer-motion": "^11.2.10",
-    "glob": "^10.4.1",
-    "globby": "^14.0.1",
-    "lru-cache": "^10.2.2",
+    "framer-motion": "^8.5.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "react-responsive-carousel": "^3.2.23",
-    "react-toastify": "^10.0.5"
+    "react-toastify": "^9.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
