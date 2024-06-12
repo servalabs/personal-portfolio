@@ -72,12 +72,12 @@ const Skills = () => {
                     <SkillIcon path={cicd} />
 
                    
-                    {/* <SkillIcon path={sk2} />
+                    <SkillIcon path={sk2} />
                     <SkillIcon path={sk3} />
                     <SkillIcon path={sk4} />
                     
                     <SkillIcon path={sk6} />
-                    <SkillIcon path={sk7} /> */}
+                    <SkillIcon path={sk7} /> 
                     
                    
                 </Div>
@@ -90,17 +90,19 @@ const Skills = () => {
                     <Service
                             num="1"
                             title="Servalabs (2024-Present)"
-                            desc="I specialize in crafting innovative solutions tailored to your needs. Leveraging the power of cutting-edge technologies and stacks such as MERN (MongoDB, Express.js, React, Node.js), Asp.Net, and robust CI/CD pipelines, I am well-equipped to deliver seamless and efficient systems. Whether you require a dynamic CRM system, a comprehensive ERP solution, or any other web-based application, I have the expertise to bring your vision to life."
+                            desc="An interesting venture, I'm trying to democratize AI and compute power while making it such that people buy for actual features and convenience AND in the process they become independent."
                             data={[
                                 "Founder",
                                 "Homeserver",
                                 "Docker",
+                                "Self Hosting",
+                                "Smart Homes",
                             ]}
                         />
                                                 <Service
                             num="2"
                             title="TechGG (2021-Present)"
-                            desc="I am highly skilled at solving problems through software development. I use coding, testing, and debugging to create effective solutions."
+                            desc="Helping companies in product development and post-production reviews while occasionally posting on the website."
                             data={[
                                 "Founder",
                                 "Product Design",
@@ -110,9 +112,10 @@ const Skills = () => {
                          <Service
                             num="3"
                             title="Consultant"
-                            desc="Expertise in Java, Kotlin, MVVM architecture, REST APIs, and seamless MAPS integration. Join me to craft apps that redefine user experiences and solve real-world challenges."
+                            desc="Helped various companies in marketing, efficient utitlization of review units and helped them get asymmetric returns."
                             data={[
                                 "Marketing",
+                                "Media Reviews"
 
                             ]}
                         />            
@@ -131,7 +134,7 @@ const Skills = () => {
                             />
                         </span>
                         <span className="flex items-center gap-4">
-                            XP{" "}
+                            XP {" "}
                             <img
                                 src={pattern}
                                 className="hidden md:block md:w-[140px] 2xl:w-[190px] mt-3"
@@ -143,7 +146,7 @@ const Skills = () => {
                 </div>
                 {/* SERVICES SECTION END */}
 
-                <Portfolio />
+              {/*<Portfolio /> to be reinstated once I actually have something*/}
                 <Achievements />
             </Wrapper>
         </div>

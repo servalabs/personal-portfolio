@@ -48,7 +48,7 @@ const AboutMe = () => {
                 </Div>
 
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                Started ServaLabs in 2024 to decentralise compute and AI in homes to improve data localisation, reducing external dependence and making enterprise features accessible to consumers, via our own OS
+                I like to take as much information as I humanly can and process it via a complex system, perks of being a polymath
                 </Div>
                 {/* PARAGRAPH END */}
 

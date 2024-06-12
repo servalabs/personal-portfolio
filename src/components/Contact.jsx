@@ -17,8 +17,7 @@ const Contact = () => {
                     Message
                     </div>
                     <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center max-w-[1000px] mx-auto">
-                    Found something similar? Want to work on a joint project? Partnership proposal? 
-                    PM me or contact me through the form below!
+                    Appreciate you taking time to fill this up
                     </div>
                 </Div>
                 {/* SECTION HEADING END */}

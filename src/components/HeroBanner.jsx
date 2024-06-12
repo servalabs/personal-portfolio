@@ -58,7 +58,7 @@ const HeroBanner = () => {
                         <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
                             <img src={gmailIcon} alt="" className="w-[18px]" />
                         </div>
-                        <div>saumya@name_of_this_website.com</div>
+                        <div>s@saumyas.com</div>
                     </div>
                     <ul className="flex 2xl:text-[20px]">
                         <li
@@ -112,11 +112,11 @@ const HeroBanner = () => {
                     transition={{ duration: 0.7, delay: 0.25 }}
                 >
                     <div className="font-light mb-4">
-                        👋 Hi, I Am{" "}
+                        Hello👋, I'm{" "}
                         <span className="font-semibold">Saumya Shah,</span>
                     </div>
                     <div className="max-w-[510px]">
-                    A passionate and outcome-driven founder
+                    A polymath and outcome-driven founder
                     </div>
                 </motion.div>
                 {/* INTRO END */}
@@ -131,7 +131,7 @@ const HeroBanner = () => {
                 >
                     {/* START */}
                     <div className="flex items-center gap-3">
-                        <div className="text-[70px] font-light">2</div>
+                        <div className="text-[60px] font-light">2</div>
                         <div className="leading-[42px]">
                             STARTUPS
                         </div>
@@ -140,9 +140,9 @@ const HeroBanner = () => {
 
                     {/* START */}
                     <div className="flex items-center gap-3">
-                        <div className="text-[70px] font-light">25+</div>
+                        <div className="text-[60px] font-light">25+</div>
                         <div className="leading-[42px]">
-                            HARDWARE<br />PARTNERS
+                            PARTNERSHIPS
                         </div>
                     </div>
                     {/* END */}

@@ -12,7 +12,7 @@ import "../slider.css";
 
 const Testimonials = () => {
     const { scrollY } = useScroll();
-    const y1 = useTransform(scrollY, [0, 4500], [1000, 0], { clamp: false });
+    const y1 = useTransform(scrollY, [0, 5500], [4000, 0], { clamp: false });
     const y2 = useTransform(scrollY, [0, 4500], [2000, 0], { clamp: false });
     return (
         <div className="w-full py-[50px] md:py-[100px] bg-white relative overflow-hidden">
@@ -34,7 +34,7 @@ const Testimonials = () => {
                 {/* SECTION HEADING START */}
                 <Div className="mb-10 relative">
                     <div className="flex text-center justify-center gap-2 md:gap-0 md:flex-col text-[40px] md:text-[90px] 2xl:text-[120px] leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase mb-2 text-[#111111]">
-                        What Companies Say
+                        What They Say
                     </div>
                 </Div>
                 {/* SECTION HEADING END */}
@@ -49,13 +49,13 @@ const Testimonials = () => {
                                     src="https://i.postimg.cc/0Nw6MMhk/Application-Frame-Host-XEIZe-WAGT0.png"
                                     className="w-[80px] h-[80px] max-w-[80px] rounded-full"
                                 />
-                                <div className="font-bold">Jane Doe</div>
+                                <div className="font-bold">Priyanshu Uchat</div>
                                 <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                                    Uchat
+                                Founder of a Tech Hardware Startup
                                 </div>
                             </div>
                             <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                            Lorem Ipsum
+                            Really thankful to Saumya, he helped us increase our growth exponentially
                             </div>
                         </div>
                         {/* SLIDE END */}

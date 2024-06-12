@@ -12,12 +12,11 @@ const Form = () => {
         e.preventDefault();
         setLoading(true);
 
-        // Below credentials are required to link your email id with contact form you can create your credentials in emailjs.com
         send(
-            "service_hcaazd7", // Service ID
-            "template_vkpuryk", // Template ID
+            "gmail", // Service ID
+            "template", // Template ID
             userInput,
-            "lX8aC7zyj9whvAIzL" // Public Key - https://dashboard.emailjs.com/admin/account
+            "W_mxFTk9pvPhWTgbs" // Public Key - https://dashboard.emailjs.com/admin/account
         )
             .then((response) => {
                 console.log("SUCCESS!", response.status, response.text);
@@ -32,7 +31,7 @@ const Form = () => {
 
     const formSuccess = () => {
         toast(
-            "Thanks for submitting"
+            "Thanks for the message ;)"
         );
 
         // Resetting Form
@@ -132,7 +131,7 @@ const Form = () => {
 
                 {/* SUBMIT BUTTON */}
                 <button className="bg-[#111111] h-[64px] max-w-[585px] text-[16px] transition-transform active:scale-[0.95]">
-                    Send
+                    Send?
                 </button>
                 {/* SUBMIT BUTTON */}
             </form>
