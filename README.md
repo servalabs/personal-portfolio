@@ -7,7 +7,7 @@
 
 git clone https://github.com/servalabs/portfolio.git
 ```
-2. In the project directory, run: 
+2. In the project directory, run (for dev mode): 
 ```bash
 
 npm install
