@@ -54,7 +54,7 @@ const Skills = () => {
             {/* BACKGROUND ELEMENTS END */}
             <Wrapper>
                 {/* SKILL ICONS START */}
-                
+                {/*
                 <Div className="grid grid-cols-4 gap-3 md:grid-cols-11 relative">
                 <SkillIcon path={sk8} />
                     <SkillIcon path={sk9} />
