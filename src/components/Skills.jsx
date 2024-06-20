@@ -71,16 +71,11 @@ const Skills = () => {
                     <SkillIcon path={skpython} />
                     <SkillIcon path={net} />
                     <SkillIcon path={cicd} />
-
-                   
                     <SkillIcon path={sk2} />
                     <SkillIcon path={sk3} />
                     <SkillIcon path={sk4} />
-                    
                     <SkillIcon path={sk6} />
                     <SkillIcon path={sk7} /> 
-                    
-                   
                 </Div>
                    }
 
