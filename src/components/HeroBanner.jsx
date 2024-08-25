@@ -3,11 +3,13 @@ import { motion } from "framer-motion";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Wrapper from "./Wrapper";
-import man from "../assets/saumya.png";
+import man from "../assets/saumya.jpg";
 import externalLinkIcon from "../assets/external-link-icon.png";
 import gmailIcon from "../assets/email-icon.png";
 import { scrollTo } from "../helper";
 import { useFollowPointer } from "./useFollowPointer";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HeroBanner = () => {
     const ref = useRef(null);
@@ -20,13 +22,13 @@ const HeroBanner = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-end',
-      };
-    
-      const iconStyle = {
+    };
+
+    const iconStyle = {
         margin: '10px',
         fontSize: '24px',
         color: '#333',
-      };
+    };
     return (
         <div
             id="hero"
@@ -69,6 +71,10 @@ const HeroBanner = () => {
                         </li>
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
+                        ><Link to="/about" className="nav-link">Blogs</Link>
+                        </li>
+                        <li
+                            className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
                             onClick={() => scrollTo("skills")}
                         >
                             XP
@@ -85,14 +91,15 @@ const HeroBanner = () => {
 
                 {/* BIG HEADING START */}
                 <motion.div
-                    className="flex justify-center text-center mt-14 mb-10 relative"
+                    className="flex justify-left text-left mt-24 mb-10 relative"
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <h1 className="text-[50px] md:text-[120px] 2xl:text-[120px] leading-[50px] md:leading-[125px]  2xl:leading-[140px] font-oswald uppercase">
+                    <h1 className="text-[50px] md:text-[120px] 2xl:text-[100px] leading-[50px] md:leading-[125px]  2xl:leading-[125px] font-oswald uppercase">
                         Founder by profession
                         <br className="invisible md:visible" />
+
                         Polymath by passion
                     </h1>
                 </motion.div>
@@ -110,13 +117,13 @@ const HeroBanner = () => {
                         <span className="font-semibold">Saumya Shah,</span>
                     </div>
                     <div className="max-w-[510px]">
-                    A polymath and outcome-driven founder
+                        A polymath and outcome-driven founder
                     </div>
                 </motion.div>
                 {/* INTRO END */}
 
                 {/* NUMBER BLOCK START */}
-    
+
                 <motion.div
                     className="hidden md:flex gap-8 relative z-10"
                     initial={{ y: 300, opacity: 0 }}
@@ -145,16 +152,18 @@ const HeroBanner = () => {
 
                 {/* PERSON BLOCK START */}
                 <motion.div
-                    className="w-[300px] md:w-[360px] 2xl:w-[350px] absolute bottom-0 left-[50%] -translate-x-1/2"
-                    initial={{ y: 200, x: "-50%" }}
+                    className="w-[100px] h-[100px] md:w-[160px] md:h-[160px] 2xl:w-[400px] 2xl:h-[450px] absolute top-14 right-0  "
+
+
+                    initial={{ y: 200, x: "-20%" }}
                     animate={{ y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <img src={man} alt="" />
+                    <img src={man} alt="" className="w-[400px] h-[550px] object-cover rounded-2xl" />
 
                     {/* HIRE ME BUTTON START */}
                     <div
-                        className="absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
+                        className="absolute top-[140px] -right-10 2xl:top-[440px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
                         onClick={() => scrollTo("contact")}
                     >
                         <img
@@ -169,18 +178,18 @@ const HeroBanner = () => {
                 {/* PERSON BLOCK END */}
             </Wrapper>
             <div style={socialIconsStyle}>
-        <a href="https://www.linkedin.com/in/saumyashhah/" style={iconStyle}>
-          <i className="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/servalabs/" style={iconStyle}>
-          <i className="fab fa-github"></i>
-        </a>
-        <a href="https://x.com/saumyashhah/" style={iconStyle}>
-          <i className="fab fa-twitter"></i>
-        </a>
-      </div>
+                <a href="https://www.linkedin.com/in/saumyashhah/" style={iconStyle}>
+                    <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/servalabs/" style={iconStyle}>
+                    <i className="fab fa-github"></i>
+                </a>
+                <a href="https://x.com/saumyashhah/" style={iconStyle}>
+                    <i className="fab fa-twitter"></i>
+                </a>
+            </div>
         </div>
     );
 };
-    
+
 export default HeroBanner;
