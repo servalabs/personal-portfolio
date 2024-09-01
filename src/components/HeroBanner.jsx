@@ -51,17 +51,24 @@ const HeroBanner = () => {
             <Wrapper>
                 {/* NAVBAR START */}
                 <motion.div
-                    className="hidden md:flex items-center justify-between mt-[15px] 2xl:mt-[15px] relative"
+                    className="hidden md:flex items-left justify-left mt-[15px] 2xl:mt-[15px] relative"
                     initial={{ y: -200, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.25 }}
                 >
-                    <div className="flex items-center gap-[6px]">
+                    <div className="flex items-center gap-[50px]">
                         <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
                             <img src={gmailIcon} alt="" className="w-[18px]" />
                         </div>
                         <div>s@saumyas.com</div>
                     </div>
+                </motion.div>
+                <motion.div
+                    className="hidden md:flex items-center justify-center mt-[15px] 2xl:mt-[2px] relative"
+                    initial={{ y: -200, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.7, delay: 0.25 }}
+                >
                     <ul className="flex 2xl:text-[20px]">
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
@@ -71,7 +78,7 @@ const HeroBanner = () => {
                         </li>
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
-                        ><Link to="/about" className="nav-link">Blogs</Link>
+                        ><Link to="https://blog.saumyas.com" className="nav-link">Blogs</Link>
                         </li>
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
@@ -96,7 +103,7 @@ const HeroBanner = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <h1 className="text-[50px] md:text-[120px] 2xl:text-[100px] leading-[50px] md:leading-[125px]  2xl:leading-[125px] font-oswald uppercase">
+                    <h1 className="text-[50px] md:text-[120px] 2xl:text-[90px] leading-[50px] md:leading-[125px]  2xl:leading-[120px] font-oswald uppercase relative">
                         Founder by profession
                         <br className="invisible md:visible" />
 
@@ -152,18 +159,26 @@ const HeroBanner = () => {
 
                 {/* PERSON BLOCK START */}
                 <motion.div
-                    className="w-[100px] h-[100px] md:w-[160px] md:h-[160px] 2xl:w-[400px] 2xl:h-[450px] absolute top-14 right-0  "
+                    className=" 
+                        w-[300px] h-[320px] 
+                        md:w-[200px] md:h-[220px]          
+                            
+                        2xl:w-[400px] 2xl:h-[450px]         
+                        absolute 
+                        top-[500px] right-[5px] 
+                        md:top-[100px]                    
+                        md:right-10 lg:right-0 2xl:right-0"
 
 
                     initial={{ y: 200, x: "-20%" }}
                     animate={{ y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <img src={man} alt="" className="w-[400px] h-[550px] object-cover rounded-2xl" />
+                    <img src={man} alt="" className=" object-cover rounded-2xl" />
 
                     {/* HIRE ME BUTTON START */}
                     <div
-                        className="absolute top-[140px] -right-10 2xl:top-[440px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
+                        className="absolute top-[240px] -right-10 2xl:top-[440px] 2xl:-right-10 w-[110px] h-[110px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90 rounded-lg"
                         onClick={() => scrollTo("contact")}
                     >
                         <img
