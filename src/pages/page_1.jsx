@@ -13,12 +13,11 @@ function page_1() {
             <HeroBanner />
             <AboutMe />
             <Skills />
-            <Timeline/>
             <Testimonials />
             <Contact />
             <Footer />
-            <Link to="/about">
-                <button>Go to the Webmaster of the page</button>
+            <Link to="https://portfolio.buddingtech.in/">
+                <button>by buddingTECH_webserve</button>
             </Link>
         </div>
     );
