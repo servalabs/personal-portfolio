@@ -1,12 +1,12 @@
 import React from "react";
 import { achievements } from "../data";
 import NumInc from "./NumInc";
-import dashedCircle from "../assets/dashed-circle.svg";
+import dashedCircle from "../assets/dashed-circle.jpg";
 import Div from "./Div";
 
 const Achievements = () => {
     return (
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-[15px] md:gap-[25px] 2xl:gap-[50px] mt-[75px] md:mt-[150px] relative">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-[15px] md:gap-[25px] 2xl:gap-[50px] mt-[10px] md:mt-[10px] relative">
             {achievements.map((item) => (
                 <Div
                     key={item.id}
@@ -14,7 +14,7 @@ const Achievements = () => {
                 >
                     <img
                         src={dashedCircle}
-                        className="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                        className="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg"
                     />
                     <div className="flex items-center text-white relative">
                         <div className="flex items-center justify-center text-center flex-col gap-3 lg:gap-6">

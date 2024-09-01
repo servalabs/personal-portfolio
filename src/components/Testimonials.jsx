@@ -49,13 +49,13 @@ const Testimonials = () => {
                                     src="https://i.postimg.cc/0Nw6MMhk/Application-Frame-Host-XEIZe-WAGT0.png"
                                     className="w-[80px] h-[80px] max-w-[80px] rounded-full"
                                 />
-                                <div className="font-bold">Priyanshu Uchat</div>
+                                <div className="font-bold">Priyanshu J Uchat</div>
                                 <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                                Founder of a Tech Hardware Startup
+                                Founder @ BuddingTECH, a Tech Hardware Startup
                                 </div>
                             </div>
                             <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-black text-center">
-                            Really thankful to Saumya, he helped us increase our growth exponentially
+                            Really thankful to Saumya, he helped us increase our growth exponentially.
                             </div>
                         </div>
                         {/* SLIDE END */}

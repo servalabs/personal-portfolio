@@ -51,12 +51,12 @@ const HeroBanner = () => {
             <Wrapper>
                 {/* NAVBAR START */}
                 <motion.div
-                    className="hidden md:flex items-left justify-left mt-[15px] 2xl:mt-[15px] relative"
+                    className="hidden md:flex items-left justify-left mt-[5px] 2xl:mt-[15px] relative"
                     initial={{ y: -200, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.25 }}
                 >
-                    <div className="flex items-center gap-[50px]">
+                    <div className="flex items-center gap-[5px]">
                         <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
                             <img src={gmailIcon} alt="" className="w-[18px]" />
                         </div>
@@ -64,12 +64,12 @@ const HeroBanner = () => {
                     </div>
                 </motion.div>
                 <motion.div
-                    className="hidden md:flex items-center justify-center mt-[15px] 2xl:mt-[2px] relative"
+                    className="hidden md:flex items-center justify-center mt-[0px] 2xl:mt-[2px] relative"
                     initial={{ y: -200, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.25 }}
                 >
-                    <ul className="flex 2xl:text-[20px]">
+                    <ul className="flex 2xl:text-[30px]  bg-slate-600  rounded-[50px]">
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
                             onClick={() => scrollTo("about")}
@@ -160,12 +160,12 @@ const HeroBanner = () => {
                 {/* PERSON BLOCK START */}
                 <motion.div
                     className=" 
-                        w-[300px] h-[320px] 
+                        w-[275px] h-[100px] 
                         md:w-[200px] md:h-[220px]          
                             
                         2xl:w-[400px] 2xl:h-[450px]         
                         absolute 
-                        top-[500px] right-[5px] 
+                        top-[465px] right-[2px]
                         md:top-[100px]                    
                         md:right-10 lg:right-0 2xl:right-0"
 
