@@ -1,15 +1,15 @@
 import React from 'react';
 import './Timeline.css';
-import Wrapper from "../components/Wrapper";
+ 
 
-// import images
-import htmlimg from '../assets/htmlimg.png';
-import javascriptimg from '../assets/javascriptimg.png';
-import reactjsimg from '../assets/reactjsimg.png';
-import nodejsimg from '../assets/nodejsimg.png';
-import expressjsimg from '../assets/expressjsimg.png';
-import mongodbimg from '../assets/mongodbimg.png';
-import phpimg from '../assets/phpimg.png';
+ 
+import htmlimg from './assets/htmlimg.png';
+import javascriptimg from './assets/javascriptimg.png';
+import reactjsimg from './assets/reactjsimg.png';
+import nodejsimg from './assets/nodejsimg.png';
+import expressjsimg from './assets/expressjsimg.png';
+import mongodbimg from './assets/mongodbimg.png';
+import phpimg from './assets/phpimg.png';
 import pattern from "../assets/heading-pattern.png";
 import pe1 from "../assets/sec-3-p-e-1.png";
 import pe2 from "../assets/sec-3-p-e-2.png";
