@@ -160,12 +160,12 @@ const HeroBanner = () => {
                 {/* PERSON BLOCK START */}
                 <motion.div
                     className=" 
-                        w-[275px] h-[100px] 
+                          w-[275px] h-[70px] 
                         md:w-[200px] md:h-[220px]          
                             
                         2xl:w-[400px] 2xl:h-[450px]         
                         absolute 
-                        top-[465px] right-[2px]
+                        top-[400px] right-[2px]
                         md:top-[100px]                    
                         md:right-10 lg:right-0 2xl:right-0"
 
