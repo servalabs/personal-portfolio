@@ -98,7 +98,7 @@ const HeroBanner = () => {
 
                 {/* BIG HEADING START */}
                 <motion.div
-                    className="flex justify-left text-left mt-24 mb-10 relative"
+                 className="flex justify-left text-left mt-10 md:mt-20 mb-10 relative"
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
