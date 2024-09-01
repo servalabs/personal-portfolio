@@ -1,9 +1,10 @@
 import p1 from "./assets/scrap.png";
 import p2 from "./assets/arbic.png";
 import p3 from "./assets/dashboard_infographics.png";
-import p4 from "./assets/fyp.png";
-import p5 from "./assets/oman.png";
-import p6 from "./assets/CS.png";
+import p4 from "./assets/dashboard_infographics.png";
+import p5 from "./assets/dashboard_infographics.png";
+import p6 from "./assets/dashboard_infographics.png";
+ 
 
 export const filters = [
     {
