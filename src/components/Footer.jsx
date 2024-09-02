@@ -21,7 +21,7 @@ const Footer = () => {
                             className="cursor-pointer transition active:scale-90"
                             onClick={() => scrollTo("about")}
                         >
-                            Short Intro
+                            Intro
                         </li>
                         <li
                             className="cursor-pointer transition active:scale-90"
