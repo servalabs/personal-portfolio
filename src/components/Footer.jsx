@@ -29,10 +29,13 @@ const Footer = () => {
                         >
                             XP
                         </li>
-                        <li
+                       <li
                             className="cursor-pointer transition active:scale-90"
-                            <Link to="https://blog.saumyas.com">Blogs</Link>
-                        
+                        >
+                            <a href="https://blogs.saumyas.com">
+                                Blogs
+                            </a>
+
                         </li>
                         <li
                             className="cursor-pointer transition active:scale-90"
