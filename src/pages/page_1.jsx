@@ -16,9 +16,6 @@ function page_1() {
             <Testimonials />
             <Contact />
             <Footer />
-            <Link to="https://portfolio.buddingtech.in/">
-                <button>by buddingTECH_webserve</button>
-            </Link>
         </div>
     );
 }
