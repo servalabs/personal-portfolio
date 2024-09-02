@@ -4,13 +4,14 @@ import './Timeline.css';
 
 import logo1 from '../assets/fractal_design_logo.jpg';
 import logo2 from '../assets/techgg_logo.jpg';
+import logo4 from '../assets/1636109633595.jpg';
 import logo3 from '../assets/1636109633595.jpg';
 
 
 const Timeline = () => {
   const experiences = [
     {
-      img: undefined,
+      img: logo4,
       alt: 'ServaLabs',
       title: 'Founder',
       company: 'ServaLabs',
