@@ -4,7 +4,7 @@ import './Timeline.css';
 
 import logo1 from '../assets/fractal_design_logo.jpg';
 import logo2 from '../assets/techgg_logo.jpg';
-import logo4 from '../assets/1636109633595.jpg';
+import logo4 from '../assets/servalabs_logo.jpg';
 import logo3 from '../assets/1636109633595.jpg';
 
 
