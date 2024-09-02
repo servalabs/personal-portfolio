@@ -69,7 +69,7 @@ const HeroBanner = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.25 }}
                 >
-                    <ul className="flex 2xl:text-[30px] bg-[rgba(0,0,0,0.5)] rounded-[20px]">
+                    <ul className="flex 2xl:text-[30px] bg-[rgba(0,0,0,0.5)] rounded-[10px]">
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
                             onClick={() => scrollTo("about")}
@@ -184,7 +184,7 @@ const HeroBanner = () => {
                         <img
                             src={externalLinkIcon}
                             alt=""
-                            className="w-[15px]"
+                            className="w-[20px]"
                         />
                         <div className="text-black">PM</div>
                     </div>
