@@ -31,9 +31,8 @@ const Footer = () => {
                         </li>
                         <li
                             className="cursor-pointer transition active:scale-90"
-                            onClick={() => scrollTo("work")}
-                        >
-                            Work
+                            <Link to="https://blog.saumyas.com">Blogs</Link>
+                        
                         </li>
                         <li
                             className="cursor-pointer transition active:scale-90"
