@@ -60,7 +60,7 @@ const HeroBanner = () => {
                         <div className="w-9 h-9 rounded-full bg-[#252525] flex justify-center items-center">
                             <img src={gmailIcon} alt="" className="w-4" />
                         </div>
-                        <div className="text-white">s@saumyas.com</div>
+                        <div className="text-white">hi@saumyas.com</div>
                     </div>
                 </motion.div>
                 <motion.div
