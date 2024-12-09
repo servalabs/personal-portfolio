@@ -59,7 +59,7 @@ const HeroBanner = () => {
                         <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
                             <img src={gmailIcon} alt="" className="w-[18px]" />
                         </div>
-                        <div>s@saumyas.com</div>
+                        <div>hi@saumyas.com</div>
                     </div>
                     <ul className="flex 2xl:text-[20px]">
                         <li
