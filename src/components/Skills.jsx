@@ -42,7 +42,7 @@ const Skills = () => {
                  
 
                 {/* SECTION HEADING START */}
-                <div className="flex flex-wrap justify-center gap-2 md:gap-0 md:flex-col text-[40px] md:text-[90px] 2xl:text-[90px] leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-gradient mb-10 md:mb-0 md:sticky top-2">
+                <div className="flex flex-wrap justify-center gap-2 py-[100px] md:gap-0 md:flex-col text-[40px] md:text-[90px] 2xl:text-[90px] leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-gradient mb-10 md:mb-0 md:sticky top-2">
                     <span>Solving</span>
                     <span>Problems</span>
                     <span className="flex items-center gap-2">

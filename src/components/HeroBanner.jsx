@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom';
 const HeroBanner = () => {
     const ref = useRef(null);
     const { x, y } = useFollowPointer(ref);
+    const [showMenu, setShowMenu] = useState(false);
     const socialIconsStyle = {
         position: 'fixed',
         right: '20px',
@@ -48,8 +49,91 @@ const HeroBanner = () => {
             <span className="md:hidden sec-1-bg-gradient-2-mobile absolute w-[636px] h-[635px] -left-[334px] top-[672px]" />
             {/* BACKGROUND ELEMENTS FOR MOBILE END */}
 
-            <Wrapper>
-                {/* NAVBAR START */}
+           
+               {/* MOBILE HEADER START */}
+              {/* NAVBAR START */}
+              <motion.div
+                    className="flex md:hidden items-center justify-between p-5 bg-black rounded-[12px] relative z-1"
+                    initial={{ y: -200, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.7, delay: 0.25 }}
+                >
+                    <div className="flex items-center gap-2">
+                         
+                        <div className="text-white text-sm">Saumya Shah's Portfolio</div>
+                    </div>
+                    {/* Hamburger Menu */}
+                    <div
+                        className="cursor-pointer text-white"
+                        onClick={() => setShowMenu(!showMenu)}
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth="2"
+                            stroke="currentColor"
+                            className="w-6 h-6"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M3.75 5.75h16.5M3.75 12h16.5m-16.5 6.25h16.5"
+                            />
+                        </svg>
+                    </div>
+                </motion.div>
+
+                {/* Mobile Menu */}
+                {showMenu && (
+                    <motion.ul
+                        className="absolute top-16 left-0 w-full bg-black flex flex-col items-center space-y-4 p-4 "
+                        initial={{ y: -200, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <li
+                            className="cursor-pointer text-white px-4 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
+                            onClick={() => {
+                                setShowMenu(false);
+                                scrollTo("about");
+                            }}
+                        >
+                            Intro
+                        </li>
+                        <li
+                            className="cursor-pointer text-white px-4 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
+                        >
+                            <Link
+                                to="https://blog.saumyas.com"
+                                className="nav-link"
+                                onClick={() => setShowMenu(false)}
+                            >
+                                Blogs
+                            </Link>
+                        </li>
+                        <li
+                            className="cursor-pointer text-white px-4 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
+                            onClick={() => {
+                                setShowMenu(false);
+                                scrollTo("skills");
+                            }}
+                        >
+                            XP
+                        </li>
+                        <li
+                            className="cursor-pointer text-white px-4 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
+                            onClick={() => {
+                                setShowMenu(false);
+                                scrollTo("contact");
+                            }}
+                        >
+                            PM
+                        </li>
+                    </motion.ul>
+                )}
+             <Wrapper>
+                {/* Desktop Navbar */}
                 <motion.div
                     className="hidden md:flex items-left justify-left mt-1 2xl:mt-4 relative"
                     initial={{ y: -200, opacity: 0 }}
@@ -58,7 +142,7 @@ const HeroBanner = () => {
                 >
                     <div className="flex items-center gap-2">
                         <div className="w-9 h-9 rounded-full bg-[#252525] flex justify-center items-center">
-                            <img src={gmailIcon} alt="" className="w-4" />
+                            <img src={gmailIcon} alt="Email" className="w-4" />
                         </div>
                         <div className="text-white">hi@saumyas.com</div>
                     </div>
@@ -79,7 +163,9 @@ const HeroBanner = () => {
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
                         >
-                            <Link to="https://blog.saumyas.com" className="nav-link">Blogs</Link>
+                            <Link to="https://blog.saumyas.com" className="nav-link">
+                                Blogs
+                            </Link>
                         </li>
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
@@ -95,18 +181,19 @@ const HeroBanner = () => {
                         </li>
                     </ul>
                 </motion.div>
+                
                 {/* NAVBAR END */}
 
                 {/* BIG HEADING START */}
                 <motion.div
-                    className="flex justify-left text-left mt-10 md:mt-20 mb-10 relative"
+                    className="flex justify-left md:text-left mt-10 md:mt-20 mb-10 relative"
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <h1 className="text-[50px] md:text-[80px] 2xl:text-[90px] leading-[50px] md:leading-[90px] 2xl:leading-[100px] font-oswald uppercase text-white">
+                    <h1 className="text-center md:text-left text-[38px] md:text-[70px] 2xl:text-[90px] leading-[50px] md:leading-[90px] 2xl:leading-[100px] font-oswald uppercase text-white">
                         Founder by profession
-                        <br className="hidden " />
+                        <br className="block" />
                         Polymath by passion
                     </h1>
                 </motion.div>
@@ -119,11 +206,11 @@ const HeroBanner = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.25 }}
                 >
-                    <div className="font-light mb-4">
+                    <div className=" text-[22px] font-light mb-4">
                         Hello👋, I'm{" "}
-                        <span className="font-semibold">Saumya Shah,</span>
+                        <span className="font-semibold ">Saumya Shah,</span>
                     </div>
-                    <div className="max-w-[510px] mx-auto md:mx-0">
+                    <div className="text-[23px] md:mx-0">
                         A polymath and outcome-driven founder
                     </div>
                 </motion.div>
@@ -159,7 +246,7 @@ const HeroBanner = () => {
                         w-[275px] md:w-[200px] lg:w-[300px] 2xl:w-[400px]
                         h-auto
                         absolute
-                        top-[400px] md:top-[100px]
+                          top-[450px] md:top-[100px]
                         right-[2px] md:right-10 lg:right-0 2xl:right-0
                     "
                     initial={{ y: 200, x: "-20%" }}
@@ -168,7 +255,7 @@ const HeroBanner = () => {
                 >
                     <img src={man} alt="" className="object-cover rounded-2xl w-full" />
 
-                    {/* HIRE ME BUTTON START */}
+                    {/*PM ME BUTTON START */}
                     <div
                         className="
                             absolute
@@ -216,3 +303,5 @@ const HeroBanner = () => {
 };
 
 export default HeroBanner;
+
+ 
