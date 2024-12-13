@@ -31,7 +31,7 @@ function Apper() {
          
   
         <div>
-          <Marquee direction="right" speed={200} delay={5}>
+          <Marquee direction="right" speed={200} delay={0}>
             <div className="image_wrapper">
               <img src={sk1} alt="" />
             </div>
@@ -72,7 +72,7 @@ function Apper() {
 
           <div className="hidden md:block">
           <div className="my-16"></div>
-          <Marquee direction="left" speed={200} delay={5}>
+          <Marquee direction="left" speed={200} delay={0}>
             <div className="image_wrapper">
               <img src={sk11} alt="" />
             </div>
