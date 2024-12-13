@@ -58,7 +58,7 @@ const Timeline = () => {
 
   return (
     <div className='main'>
-      <div className="flex flex-wrap justify-center gap-2 md:gap-0 md:flex-col text-[60px] md:text-[90px] 2xl:text-[120px] leading-[60px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-gradient md:mb-4 md:sticky  ">
+      <div className="flex flex-wrap justify-center gap-2 md:gap-0 md:flex-col text-[60px] md:text-[90px] 2xl:text-[120px] leading-[60px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-gradient md:mb-4 md:sticky relative ">
         <span>Experience</span>
       </div>
 
