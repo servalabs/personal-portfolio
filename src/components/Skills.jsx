@@ -30,31 +30,7 @@ const Skills = () => {
             <motion.img className="sec-3-p-e-3" style={{ y: y3 }} src={pe3} />
             {/* BACKGROUND ELEMENTS END */}
             <Wrapper>
-                {/* SKILL ICONS START */}
-                {/* {
-                    <Div className="grid grid-cols-4 gap-3 md:grid-cols-4 relative">
-                        <SkillIcon path={sk8} />
-                        <SkillIcon path={sk9} />
-                        <SkillIcon path={sk10} />
-                        <SkillIcon path={sk11} />
-                        <SkillIcon path={sknode} />
-                        <SkillIcon path={skmongo} />
-                        <SkillIcon path={sk5} />
-                        <SkillIcon path={sk1} />
-                        <SkillIcon path={skkotlin} />
-                        <SkillIcon path={skjava} />
-                        <SkillIcon path={skgit} />
-                        <SkillIcon path={skmysql} />
-                        <SkillIcon path={skpython} />
-                        <SkillIcon path={net} />
-                        <SkillIcon path={cicd} />
-                        <SkillIcon path={sk2} />
-                        <SkillIcon path={sk3} />
-                        <SkillIcon path={sk4} />
-                        <SkillIcon path={sk6} />
-                        <SkillIcon path={sk7} />
-                    </Div>
-                } */}
+                 
                 <Apper/>
 
                 {/* SERVICES SECTION START */}
