@@ -1,0 +1,19 @@
+.App {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 100px;
+  }
+  
+  .image_wrapper {
+    margin: 1px 0px;
+}
+
+.image_wrapper img {
+    width: 90%;
+    
+    border-radius:10px;
+  }
+  

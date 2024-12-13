@@ -3,34 +3,10 @@ import React from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
 
 import Wrapper from "./Wrapper";
-import SkillIcon from "./SkillIcon";
-import Service from "./Service";
-import Portfolio from "./Portfolio";
+import Apper from "./Apper";
+ 
 import Achievements from "./Achievements";
-import Div from "./Div";
-
-// IMAGES
-import sk1 from "../assets/sk-1.jpg";
-import sk2 from "../assets/sk-2.jpg";
-import sk3 from "../assets/sk-3.jpg";
-import sk4 from "../assets/sk-4.jpg";
-import sk5 from "../assets/sk-5.jpg";
-import sk6 from "../assets/sk-6.jpg";
-import sk7 from "../assets/sk-7.jpg";
-import sk8 from "../assets/sk-8.jpg";
-import sk9 from "../assets/sk-9.jpg";
-import sk10 from "../assets/sk-10.jpg";
-import sk11 from "../assets/sk-11.jpg";
-import sknode from "../assets/sk-12.jpg";
-import skmongo from "../assets/sk-13.jpg";
-import skkotlin from "../assets/sk-14.jpg";
-import skjava from "../assets/sk-15.jpg";
-import skgit from "../assets/sk-16.jpg";
-import skmysql from "../assets/sk-17.jpg";
-import skpython from "../assets/sk-18.jpg";
-import net from "../assets/sk-19.jpg";
-import cicd from "../assets/sk-20.jpg";
-
+ 
 import pattern from "../assets/heading-pattern.png";
 import pe1 from "../assets/sec-3-p-e-1.png";
 import pe2 from "../assets/sec-3-p-e-2.png";
@@ -44,7 +20,7 @@ const Skills = () => {
     return (
         <div
             id="skills"
-            className="bg-[#111111] py-[100px] md:py-[200px] relative overflow-hidden"
+            className="bg-[#111111] py-[100px] md:py-[00px] relative overflow-hidden"
         >
             {/* BACKGROUND ELEMENTS START */}
             <div className="sec-3-bg-gradient-1" />
@@ -55,8 +31,8 @@ const Skills = () => {
             {/* BACKGROUND ELEMENTS END */}
             <Wrapper>
                 {/* SKILL ICONS START */}
-                {
-                    <Div className="grid grid-cols-4 gap-3 md:grid-cols-11 relative">
+                {/* {
+                    <Div className="grid grid-cols-4 gap-3 md:grid-cols-4 relative">
                         <SkillIcon path={sk8} />
                         <SkillIcon path={sk9} />
                         <SkillIcon path={sk10} />
@@ -78,7 +54,8 @@ const Skills = () => {
                         <SkillIcon path={sk6} />
                         <SkillIcon path={sk7} />
                     </Div>
-                }
+                } */}
+                <Apper/>
 
                 {/* SERVICES SECTION START */}
                 <div className="flex items-end justify-between flex-wrap-reverse py-[50px] md:py-[100px] relative">
