@@ -8,7 +8,7 @@ import externalLinkIcon from "../assets/external-link-icon.png";
 import gmailIcon from "../assets/email-icon.png";
 import { scrollTo } from "../helper";
 import { useFollowPointer } from "./useFollowPointer";
-import React from 'react';
+ 
 import { Link } from 'react-router-dom';
 
 const HeroBanner = () => {
@@ -106,7 +106,7 @@ const HeroBanner = () => {
                 >
                     <h1 className="text-[50px] md:text-[80px] 2xl:text-[90px] leading-[50px] md:leading-[90px] 2xl:leading-[100px] font-oswald uppercase text-white">
                         Founder by profession
-                        <br className="hidden md:block" />
+                        <br className="hidden " />
                         Polymath by passion
                     </h1>
                 </motion.div>
