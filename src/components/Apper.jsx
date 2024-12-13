@@ -23,7 +23,7 @@ import sk18 from "../assets/sk-18.jpg";
 import sk19 from "../assets/sk-19.jpg";
 import sk20 from "../assets/sk-20.jpg";
 import sk21 from "../assets/23.jpg";
-import './App.css';  // Create this file for custom CSS
+import './app.css';  // Create this file for custom CSS
 
 function Apper() {
     return (
