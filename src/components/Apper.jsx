@@ -66,6 +66,11 @@ function Apper() {
               <img src={sk21} alt="" />
             </div>
           </Marquee>
+          </div>
+         
+           
+
+          <div className="hidden md:block">
           <div className="my-16"></div>
           <Marquee direction="left" speed={200} delay={5}>
             <div className="image_wrapper">
